@@ -1,0 +1,102 @@
+[
+  {
+    "Capture": "rivals-d3d-low.csv",
+    "FrameCount": 1290,
+    "AverageRenderedFPS": 43.11,
+    "MedianMs": 21.726,
+    "P95Ms": 31.82,
+    "P99Ms": 56.212,
+    "OnePercentLowFPS": 14.15,
+    "WorstMs": 106.569,
+    "FramesOver33ms": 52,
+    "CPUPrePresentMedianMs": 21.112,
+    "GPUBusyMedianMs": 9.761,
+    "DisplayTimingCoveragePercent": 99.9,
+    "PresentModes": [
+      {
+        "Name": "Composed: Copy with GPU GDI",
+        "Count": 1290
+      }
+    ]
+  },
+  {
+    "Capture": "rivals-vulkan-low.csv",
+    "FrameCount": 1199,
+    "AverageRenderedFPS": 40.07,
+    "MedianMs": 21.678,
+    "P95Ms": 42.579,
+    "P99Ms": 71.385,
+    "OnePercentLowFPS": 9.59,
+    "WorstMs": 312.414,
+    "FramesOver33ms": 124,
+    "CPUPrePresentMedianMs": 21.678,
+    "GPUBusyMedianMs": 9.63,
+    "DisplayTimingCoveragePercent": 99.4,
+    "PresentModes": [
+      {
+        "Name": "Composed: Copy with GPU GDI",
+        "Count": 1199
+      }
+    ]
+  },
+  {
+    "Capture": "rivals-d3d-720-fullscreen.csv",
+    "FrameCount": 1754,
+    "AverageRenderedFPS": 58.58,
+    "MedianMs": 16.425,
+    "P95Ms": 21.205,
+    "P99Ms": 30.106,
+    "OnePercentLowFPS": 19.66,
+    "WorstMs": 78.847,
+    "FramesOver33ms": 16,
+    "CPUPrePresentMedianMs": 16.058,
+    "GPUBusyMedianMs": 11.917,
+    "DisplayTimingCoveragePercent": 96.5,
+    "PresentModes": [
+      {
+        "Name": "Composed: Copy with GPU GDI",
+        "Count": 1754
+      }
+    ]
+  },
+  {
+    "Capture": "rivals-exclusive-attempt.csv",
+    "FrameCount": 1176,
+    "AverageRenderedFPS": 58.81,
+    "MedianMs": 16.576,
+    "P95Ms": 21.516,
+    "P99Ms": 28.934,
+    "OnePercentLowFPS": 21.77,
+    "WorstMs": 68.732,
+    "FramesOver33ms": 10,
+    "CPUPrePresentMedianMs": 15.703,
+    "GPUBusyMedianMs": 7.659,
+    "DisplayTimingCoveragePercent": 100.0,
+    "PresentModes": [
+      {
+        "Name": "Hardware Composed: Independent Flip",
+        "Count": 1176
+      }
+    ]
+  },
+  {
+    "Capture": "gakuran-720.csv",
+    "FrameCount": 1338,
+    "AverageRenderedFPS": 44.68,
+    "MedianMs": 21.079,
+    "P95Ms": 29.133,
+    "P99Ms": 41.684,
+    "OnePercentLowFPS": 14.97,
+    "WorstMs": 185.602,
+    "FramesOver33ms": 40,
+    "CPUPrePresentMedianMs": 20.666,
+    "GPUBusyMedianMs": 12.46,
+    "DisplayTimingCoveragePercent": 100.0,
+    "PresentModes": [
+      {
+        "Name": "Composed: Copy with GPU GDI",
+        "Count": 1338
+      }
+    ]
+  }
+]

@@ -1,0 +1,9 @@
+# References
+
+- [Roblox client flag allowlist announcement](https://devforum.roblox.com/t/allowlist-for-local-client-configuration-via-fast-flags/3966569) and [live PC desktop configuration](https://clientsettingscdn.roblox.com/v2/settings/application/PCDesktopClient). The launcher reads the live allowlist each time; HTTPS authenticates the source. It does not independently implement Roblox's private signature verifier for the allowlist payload.
+- [Bloxstrap flag preset mappings](https://github.com/bloxstraplabs/bloxstrap/blob/main/Bloxstrap/FastFlagManager.cs) and [Fishstrap graphics presets](https://github.com/fishstrap/fishstrap/blob/main/Bloxstrap/UI/ViewModels/Settings/FastFlagsViewModel.cs). Used as references for setting values; these clients are not bundled.
+- [Intel PresentMon console documentation](https://github.com/GameTechDev/PresentMon/blob/main/README-ConsoleApplication.md). Used to interpret frame interval and presentation mode data.
+- [Intel integrated graphics memory FAQ](https://www.intel.com/content/www/us/en/support/articles/000020962/graphics.html). Integrated graphics uses shared system memory.
+- [Intel i3-10105T specifications](https://www.intel.com/content/www/us/en/products/sku/201890/intel-core-i310105t-processor-6m-cache-up-to-3-90-ghz/specifications.html) and [Intel overclocking guidance](https://www.intel.com/content/www/us/en/support/articles/000058654/processors.html).
+- [Dell OptiPlex 3090 Micro memory specifications](https://www.dell.com/support/manuals/en-jm/optiplex-3090-micro/optiplex3090_micro_ss/memory?guid=guid-e9d2ea83-38a4-431d-803c-96d63c1dbc34&lang=en-us).
+- [Microsoft ChangeDisplaySettingsEx](https://learn.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-changedisplaysettingsexw). The helper tests a supported mode before applying it temporarily, without updating the registry's saved display mode.
